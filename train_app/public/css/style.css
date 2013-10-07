@@ -1,0 +1,141 @@
+div.container{
+  background-color: rgb(161,14,32);
+  width:1000px;
+  height:860px;
+}
+div.heading{
+  background-color: rgba(255,255,255,.3);
+  border: 5px solid white;
+  border-radius: 5px;
+  width: 800px;
+  height: 100px;
+  margin-bottom: 100px;
+  margin-left: 20px;
+}
+a.heading{
+  text-decoration: none;
+}
+h1.heading{
+  text-align: center;
+  margin:5px auto;
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  font-size:80px;
+  letter-spacing: -1px;
+}
+h3.heading{
+  text-align: left;
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  font-size:40px;
+  letter-spacing: -1px;
+}
+a.heading{
+  color:white;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: -1px;
+  text-decoration: none
+}
+h2.train_name{
+  color:white;
+  font-family: arial;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+div.station{
+  background-color: rgba(255,255,255,.3);
+  border: 5px solid white;
+  border-radius: 5px;
+  color:white;
+  font-family: arial;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+div.station_location{
+  background-color: rgba(255,255,255,.3);
+  border: 5px solid white;
+  border-radius: 5px;
+  color: white;
+  font-family: arial;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+div.main{
+  background-color: rgba(117,178,221,.4);
+  border: 5px solid white;
+  border-radius: 5px;
+  width:400px;
+  height: 530px;
+  margin-left: 240px;
+}
+a.main{
+  margin-top:2px; 
+}
+div.main-left{
+  padding-top: 30px;
+  display: inline-block;
+  height:350px;
+  width:90px;
+  background-color: rgba(117,178,221,.2);
+  border:5px solid white;
+  border-radius: 2px;
+  margin-left:70px;
+  float:left;
+}
+div.main-right{
+  display:inline-block;
+  height:350px;
+  width:90px;
+  background-color: rgba(117,178,221,.2);
+  border:5px solid white;
+  border-radius: 2px;
+  margin-right:70px;
+  padding-top:9px;
+  padding-bottom: 20px; 
+  float:right;
+}
+h3.main{
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: arial;
+  letter-spacing: -1px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+img{
+  margin-left:25px;
+  display: inline-block;
+  padding: 1px;
+  border:2px outset white;
+}
+a{
+  margin-top: 10px;
+  margin-left: 8px;
+  color:white;
+  font-family: arial;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+div.footer{
+  margin-left: 20px;
+  margin-top: 40px;
+  width:800px;
+  text-align: center;
+  border: 5px solid white;
+  border-radius: 5px;
+  color:white;
+  font-family: arial;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  background-color: rgba(117,178,221,.4);
+}

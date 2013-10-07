@@ -1,0 +1,88 @@
+<div class="container" style="background-color: rgb(184,19,33);
+  width:860px;
+ margin:-10px;">
+
+  <div class ="heading" style="background-color: rgba(255,255,255,.3);
+  border: 5px solid white;
+  border-radius: 5px;
+  width: 800px;
+  height: 100px;
+  margin-bottom: 100px;
+  margin-left: 20px;">
+   <a class="heading" style="text-decoration:none;" href="/"><h1 class ="heading" style="text-align: center;
+  margin:5px auto;
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  font-size:80px;
+  letter-spacing: -1px;">Welcome to the MTA</h1></a>
+    <h3 class ="heading" style="text-align: left;
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  font-size:40px;
+  letter-spacing: -1px;">Getting you where you need to be.</h3>
+    <a href="/trains" style="color:white;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: -1px;
+  text-decoration: none;
+  ">View All Trains</a>
+  </div>
+
+  <h2 class="train_name" style="color:white;
+  font-family: arial;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin-left:20px;
+  padding-top:80px;"><%= @chosen_train[0][0]%></h2>
+
+  <div class="station" style="background-color: rgba(117,178,221,.4);
+  border: 5px solid white;
+  border-radius: 5px;
+  color:white;
+  padding-left:20px;
+  padding-right:20px;
+  font-family: arial;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -1px; display:inline-block; margin-left:170px;text-align:center;">
+      <% i=0 %>
+      <% while i < @chosen_train.length %>
+      <p><%= @chosen_train[i][1] %><p>
+      <% i+=1 %>
+      <% end %>
+    </div>
+          
+    <div class="station_location" style="display:inline-block; background-color: rgba(117,178,221,.4);
+  border: 5px solid white;
+  border-radius: 5px;
+  color: white;
+  padding-left:20px;
+  padding-right:20px;
+  font-family: arial;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -1px; margin-left:20px;
+  width:110px;">
+      <% i=0 %>
+      <% while i < @chosen_train.length %>
+        <p><a style="padding:20px; color: white;" href="https://www.google.com/#q=<%= @chosen_train[i][2] %>+<%=@chosen_train[i][3]%>">Map it!</a><p>
+        <% i+=1 %>
+      <% end %>
+    </div>
+
+
+<div class="footer"style="text-align: center;
+  margin-top: 20px;
+  border: 5px solid white;
+  border-radius: 5px;
+  color:white;
+  font-family: arial;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  background-color: rgba(117,178,221,.4)"><p>Product of Skunkmaster Industrial ®</p></div>
+</div>
