@@ -55,7 +55,7 @@
       <% i+=1 %>
       <% end %>
     </div>
-          
+
     <div class="station_location" style="display:inline-block; background-color: rgba(117,178,221,.4);
   border: 5px solid white;
   border-radius: 5px;
@@ -69,7 +69,7 @@
   width:110px;">
       <% i=0 %>
       <% while i < @chosen_train.length %>
-        <p><a style="padding:20px; color: white;" href="https://www.google.com/#q=<%= @chosen_train[i][2] %>+<%=@chosen_train[i][3]%>">Map it!</a><p>
+        <p><a style="padding:20px; color: white;" href="https://www.google.com/maps/preview#!q=<%= @chosen_train[i][2] %>+<%=@chosen_train[i][3]%>">Map it!</a><p>
         <% i+=1 %>
       <% end %>
     </div>
