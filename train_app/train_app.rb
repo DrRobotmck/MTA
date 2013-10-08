@@ -1,4 +1,4 @@
-initial = File.new("/Users/macadocious/Desktop/MTA/stops.txt", "r")
+initial = File.new("../stops.txt", "r")
 
 # train_hash = File.new("/Users/macadocious/Downloads/google_transit/stops_2". "a+")
 
@@ -20,7 +20,7 @@ MTA = {}
 @three = []
 @four = []
 @five = []
-@six = [] 
+@six = []
 @seven = []
 @a = []
 @b = []
@@ -42,7 +42,7 @@ MTA = {}
         line = x[0]
           case line
             when "1"
-            
+
             @one << x
             train = @one
           when "2"
@@ -106,10 +106,10 @@ MTA = {}
             @s << x
             train = @s
             end
-    
+
         MTA[line] = train
 end
 puts MTA
-initial.close 
+initial.close
 # MTA
 
